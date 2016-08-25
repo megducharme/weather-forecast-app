@@ -1,2 +1,9 @@
 bower_components
 node_modules
+fb-getter.js
+../.sass-cache/
+../css/
+../dist/
+api-interaction.js
+main.js
+../styling/

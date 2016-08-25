@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          './css/main.css': './sass/main.sass'
+          './css/main.css': './styling/main.scss'
         }
       }
     },
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         tasks: ['jshint', 'browserify']
       },
       sass: {
-        files: ['./sass/**/*.sass'],
+        files: ['./styling/**/*.scss '],
         tasks: ['sass']
       },
       hbs: {
